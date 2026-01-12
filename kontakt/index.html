@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt i newsletter | FitPoGodzinach</title>
+  <meta name="description" content="Skontaktuj się z FitPoGodzinach. Formularz kontaktowy i zapis do newslettera o krótkich treningach po pracy." />
+  <link rel="canonical" href="https://fitpogodzinach.pl/kontakt/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kontakt | FitPoGodzinach" />
+  <meta property="og:description" content="Formularz kontaktowy i newsletter o planie treningowym online." />
+  <meta property="og:url" content="https://fitpogodzinach.pl/kontakt/" />
+  <meta property="og:image" content="https://fitpogodzinach.pl/assets/img/logo.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kontakt | FitPoGodzinach" />
+  <meta name="twitter:description" content="Formularz kontaktowy i newsletter o planie treningowym online." />
+  <meta name="twitter:image" content="https://fitpogodzinach.pl/assets/img/logo.jpg" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="/">
+        <img src="/assets/img/logo.jpg" alt="Logo FitPoGodzinach" class="logo" />
+        <span>FitPoGodzinach</span>
+      </a>
+      <button class="nav-toggle" aria-label="Otwórz menu" aria-expanded="false"><span></span></button>
+      <nav aria-label="Główna nawigacja">
+        <ul class="nav-links">
+          <li><a href="/oferta/">Oferta</a></li>
+          <li><a href="/cennik/">Cennik</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/kontakt/">Kontakt</a></li>
+          <li><a class="primary-btn small" href="/cennik/">Pakiety</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section hero" aria-labelledby="kontakt-hero">
+      <div>
+        <p class="badge">Kontakt</p>
+        <h1 id="kontakt-hero">Porozmawiajmy o Twoim planie</h1>
+        <p class="subtitle">Napisz do nas lub zapisz się do newslettera z krótkimi tipami dla zabieganych.</p>
+      </div>
+      <div class="card shadowless">
+        <p><strong>Email:</strong> kontakt@fitpogodzinach.pl</p>
+        <p><strong>Telefon:</strong> +48 000 000 000 (dni robocze 9–18)</p>
+        <p><strong>Social:</strong> IG @fitpogodzinach</p>
+      </div>
+    </section>
+
+    <section class="section section-tint" aria-labelledby="formularze">
+      <div class="container">
+        <div class="grid grid-2">
+          <div class="card" id="kontakt-form" tabindex="-1">
+            <h2 id="formularze">Formularz kontaktowy</h2>
+            <form name="kontakt" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="kontakt" />
+              <p class="hidden" aria-hidden="true">
+                <label>Nie wypełniaj: <input name="bot-field" /></label>
+              </p>
+              <label for="name">Imię</label>
+              <input id="name" name="name" type="text" required />
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+              <label for="message">Wiadomość</label>
+              <textarea id="message" name="message" required></textarea>
+              <button class="primary-btn" type="submit">Wyślij</button>
+            </form>
+          </div>
+          <div class="card">
+            <h2>Newsletter</h2>
+            <p>1–2 razy w miesiącu: szybkie zestawy, tipy żywieniowe i przypomnienia, jak trzymać się planu.</p>
+            <form name="newsletter" method="POST" data-netlify="true" data-netlify-honeypot="bot-field-news">
+              <input type="hidden" name="form-name" value="newsletter" />
+              <p class="hidden" aria-hidden="true">
+                <label>Nie wypełniaj: <input name="bot-field-news" /></label>
+              </p>
+              <label for="newsletter-email">Email</label>
+              <input id="newsletter-email" name="email" type="email" required />
+              <button class="secondary-btn" type="submit">Zapisz mnie</button>
+            </form>
+            <p style="font-size:14px; margin-top:10px;">Twoje dane są bezpieczne. Polityka prywatności: <a href="/polityka-prywatnosci/">sprawdź</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" aria-label="Stopka">
+    <div class="container columns">
+      <div>
+        <a class="brand" href="/">
+          <img src="/assets/img/logo.jpg" alt="Logo FitPoGodzinach" class="logo" />
+          <span>FitPoGodzinach</span>
+        </a>
+        <p>Dla kobiet, które nie mają czasu… ale mają cele.</p>
+      </div>
+      <div>
+        <h3>Szybkie linki</h3>
+        <ul class="inline">
+          <li><a href="/oferta/">Oferta</a></li>
+          <li><a href="/cennik/">Cennik</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/kontakt/">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Kontakt</h3>
+        <p>kontakt@fitpogodzinach.pl<br />+48 000 000 000</p>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
