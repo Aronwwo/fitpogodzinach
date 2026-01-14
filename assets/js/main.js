@@ -1,4 +1,4 @@
-﻿document.addEventListener('"'"'DOMContentLoaded'"'"', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
   const navToggle = document.querySelector('.nav-toggle');
   const navLinks = document.querySelector('.nav-links');
 
@@ -36,7 +36,7 @@
     });
   });
 
-  document.querySelectorAll('a[href^="\#"]').forEach((anchor) => {
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener('click', (event) => {
       const targetId = anchor.getAttribute('href')?.slice(1);
       if (!targetId) return;
