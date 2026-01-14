@@ -15,52 +15,52 @@
 - `/` (Home)
   - Title: "Plan treningowy online dla zapracowanych | FitPoGodzinach"
   - Description: "Personalizowane plany treningowe online..."
-  - Canonical: `https://fitpogodzinach.pl/`
+  - Canonical: `https://fitpogodzinach.netlify.app/`
   - H1: "Plan treningowy, który wreszcie pasuje Tobie."
   - Structured data: Organization + WebSite (SearchAction).
 - `/oferta/`
   - Title: "Oferta FitPoGodzinach – jak działa plan online"
   - Description: "Zobacz jak FitPoGodzinach personalizuje plan..."
-  - Canonical: `https://fitpogodzinach.pl/oferta/`
+  - Canonical: `https://fitpogodzinach.netlify.app/oferta/`
   - H1: "Plan treningowy online dopasowany do Twojego dnia"
 - `/cennik/`
   - Title: "Cennik planów treningowych | FitPoGodzinach"
   - Description: "Sprawdź ceny planów..."
-  - Canonical: `https://fitpogodzinach.pl/cennik/`
+  - Canonical: `https://fitpogodzinach.netlify.app/cennik/`
   - H1: "Cennik planów treningowych online"
   - Structured data: Service + Offers (3 pakiety, PLN).
 - `/faq/`
   - Title: "FAQ FitPoGodzinach – odpowiedzi na pytania"
   - Description: "Najczęstsze pytania o plan treningowy online..."
-  - Canonical: `https://fitpogodzinach.pl/faq/`
+  - Canonical: `https://fitpogodzinach.netlify.app/faq/`
   - H1: "Twoje pytania o plan treningowy online"
   - Structured data: FAQPage (10 Q/A).
 - `/o-nas/`
   - Title: "O nas | FitPoGodzinach"
   - Description: "Poznaj filozofię FitPoGodzinach..."
-  - Canonical: `https://fitpogodzinach.pl/o-nas/`
+  - Canonical: `https://fitpogodzinach.netlify.app/o-nas/`
   - H1: "Dla kobiet, które nie mają czasu… ale mają cele."
 - `/blog/`
   - Title: "Blog FitPoGodzinach – ruch po pracy"
   - Description: "Artykuły o planie treningowym online..."
-  - Canonical: `https://fitpogodzinach.pl/blog/`
+  - Canonical: `https://fitpogodzinach.netlify.app/blog/`
   - H1: "Ruch po pracy, który ma sens"
 - `/blog/mikrotreningi-exercise-snacks/`
   - Title: "Exercise snacks: co mówi nauka | FitPoGodzinach"
   - Description: "Dowiedz się, jak krótkie exercise snacks wspierają plan treningowy online..."
-  - Canonical: `https://fitpogodzinach.pl/blog/mikrotreningi-exercise-snacks/`
+  - Canonical: `https://fitpogodzinach.netlify.app/blog/mikrotreningi-exercise-snacks/`
   - H1: "Exercise snacks: co mówi nauka o krótkich dawkach ruchu"
   - Structured data: Article (headline, author, date, keywords, image, mainEntityOfPage).
 - `/kontakt/`
   - Title: "Kontakt i newsletter | FitPoGodzinach"
   - Description: "Skontaktuj się z FitPoGodzinach..."
-  - Canonical: `https://fitpogodzinach.pl/kontakt/`
+  - Canonical: `https://fitpogodzinach.netlify.app/kontakt/`
   - H1: "Porozmawiajmy o Twoim planie"
   - Forms: Netlify contact + newsletter.
 - `/polityka-prywatnosci/`
   - Title: "Polityka prywatności | FitPoGodzinach"
   - Description: "Polityka prywatności formularzy kontaktowych i newslettera."
-  - Canonical: `https://fitpogodzinach.pl/polityka-prywatnosci/`
+  - Canonical: `https://fitpogodzinach.netlify.app/polityka-prywatnosci/`
   - H1: "Polityka prywatności"
 - `/404.html`
   - Title: "Strona nie znaleziona | FitPoGodzinach"
