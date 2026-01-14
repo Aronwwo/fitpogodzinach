@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
@@ -37,7 +37,7 @@
           <li><a href="/faq/">FAQ</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/kontakt/">Kontakt</a></li>
-          <li><a class="primary-btn small" href="/kontakt/">Zamów</a></li>
+          <li><a class="primary-btn small" href="#pakiety-cennik">Kup teraz</a></li>
         </ul>
       </nav>
     </div>
@@ -62,32 +62,68 @@
       </div>
     </section>
 
-    <section class="section section-tint" aria-labelledby="pakiety-cennik">
+    <section class="section" aria-labelledby="jak-kupic">
+      <div class="container">
+        <h2 id="jak-kupic">Jak wygląda zakup?</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <p class="badge">1</p>
+            <h3>Wybierz pakiet</h3>
+            <p>Kliknij „Kup teraz" przy wybranym planie i przejdź do bezpiecznej płatności Stripe.</p>
+          </div>
+          <div class="card">
+            <p class="badge">2</p>
+            <h3>Opłać zamówienie</h3>
+            <p>Szybka płatność kartą lub BLIK. Wszystkie dane chronione przez Stripe (PCI DSS).</p>
+          </div>
+          <div class="card">
+            <p class="badge">3</p>
+            <h3>Otrzymujesz dostęp</h3>
+            <p>W ciągu 24h kontaktujemy się z formularzem wstępnym i harmonogramem startu.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" aria-labelledby="pakiety-cennik" id="pakiety-cennik">
       <div class="container">
         <h2 id="pakiety-cennik">Pakiety</h2>
         <div class="grid grid-3">
           <div class="card">
             <p class="badge">Start</p>
             <h3>30 Minut do Formy</h3>
-            <p>4 tygodnie. 2–3 treningi/tydz., plan mobility na kręgosłup, 1 korekta planu, check-in mail co 2 tygodnie.</p>
-            <p><strong>249 zł</strong> / 4 tygodnie</p>
-            <a class="primary-btn small" href="#kontakt-cennik">Wybieram ten pakiet</a>
+            <p style="margin:12px 0;"><strong style="font-size:28px;color:var(--brand);">249 zł</strong> <span style="font-size:14px;color:var(--subtext);">/ 4 tygodnie</span></p>
+            <ul class="list-check" style="margin:16px 0;">
+              <li>2–3 treningi/tydz., plan mobility na kręgosłup</li>
+              <li>1 korekta planu, check-in mail co 2 tygodnie</li>
+              <li>Wsparcie 24h przez cały okres</li>
+            </ul>
+            <a class="primary-btn" href="https://buy.stripe.com/8wO0Xj6lk5fPa8lgjC00" style="width:100%;">Kup teraz</a>
           </div>
-          <div class="card" aria-label="Najpopularniejszy pakiet">
+          <div class="card" aria-label="Najpopularniejszy pakiet" style="border:2px solid var(--brand);">
             <p class="badge">Najpopularniejszy</p>
             <h3>Metamorfoza Po Pracy</h3>
-            <p>3 miesiące. 3 treningi/tydz. + exercise snacks, 3 korekty planu, raport co 3 tygodnie, konsultacja 30 min, mini jadłospis.</p>
-            <p><strong>649 zł</strong> / 3 miesiące</p>
-            <a class="primary-btn small" href="#kontakt-cennik">Wybieram ten pakiet</a>
+            <p style="margin:12px 0;"><strong style="font-size:28px;color:var(--brand);">649 zł</strong> <span style="font-size:14px;color:var(--subtext);">/ 3 miesiące</span></p>
+            <ul class="list-check" style="margin:16px 0;">
+              <li>3 treningi/tydz. + exercise snacks, 3 korekty planu</li>
+              <li>Raport co 3 tygodnie, konsultacja 30 min</li>
+              <li>Mini jadłospis i lista zamienników</li>
+            </ul>
+            <a class="primary-btn" href="https://buy.stripe.com/eVqdR835r5hggYxgwJgjC01" style="width:100%;">Kup teraz</a>
           </div>
           <div class="card">
             <p class="badge">Pełne wsparcie</p>
             <h3>Projekt: Nowa Ja</h3>
-            <p>6 miesięcy. 4 treningi/tydz., priorytetowy kontakt, spotkania wideo co 2 tyg., pełny plan dietetyczny, wsparcie na delegacjach.</p>
-            <p><strong>1199 zł</strong> / 6 miesięcy</p>
-            <a class="primary-btn small" href="#kontakt-cennik">Wybieram ten pakiet</a>
+            <p style="margin:12px 0;"><strong style="font-size:28px;color:var(--brand);">1199 zł</strong> <span style="font-size:14px;color:var(--subtext);">/ 6 miesięcy</span></p>
+            <ul class="list-check" style="margin:16px 0;">
+              <li>4 treningi/tydz., priorytetowy kontakt (12h)</li>
+              <li>Spotkania wideo co 2 tyg., pełny plan dietetyczny</li>
+              <li>Wsparcie na delegacjach i adaptacje doraźne</li>
+            </ul>
+            <a class="primary-btn" href="https://buy.stripe.com/aFa3cu5dzfVU37H0xLgjC02" style="width:100%;">Kup teraz</a>
           </div>
         </div>
+        <p style="text-align:center;margin-top:24px;color:var(--subtext);">Wszystkie płatności zabezpieczone przez Stripe. Dane chronione zgodnie z PCI DSS.</p>
       </div>
     </section>
 
@@ -139,12 +175,12 @@
             </div>
             <p style="margin-top:10px;"><a class="secondary-btn small" href="/faq/">Zobacz pełne FAQ</a></p>
           </div>
-          <div class="card" id="kontakt-cennik" tabindex="-1">
-            <h3>Gotowa wybrać pakiet?</h3>
-            <p>Zostaw wiadomość, a w 24h potwierdzimy start.</p>
+          <div class="card">
+            <h3>Masz pytania przed zakupem?</h3>
+            <p>Napisz do nas — odpowiemy w 24h i pomożemy dobrać pakiet.</p>
             <div class="button-row">
-              <a class="primary-btn" href="/kontakt/#kontakt-form">Przejdź do formularza</a>
-              <a class="secondary-btn" href="mailto:kontakt@fitpogodzinach.pl">Napisz mail</a>
+              <a class="secondary-btn" href="/kontakt/#kontakt-form">Formularz kontaktowy</a>
+              <a class="secondary-btn" href="mailto:kontakt@fitpogodzinach.pl">Email</a>
             </div>
           </div>
         </div>
@@ -180,14 +216,49 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Plany treningowe online FitPoGodzinach",
-    "provider": { "@type": "Organization", "name": "FitPoGodzinach", "url": "https://fitpogodzinach.netlify.app" },
-    "areaServed": "PL",
-    "offers": [
-      { "@type": "Offer", "name": "30 Minut do Formy", "description": "4-tygodniowy plan startowy dla zapracowanych kobiet", "price": "249", "priceCurrency": "PLN", "url": "https://fitpogodzinach.netlify.app/cennik/#kontakt-cennik" },
-      { "@type": "Offer", "name": "Metamorfoza Po Pracy", "description": "3-miesięczny plan z raportami co 3 tygodnie i konsultacją", "price": "649", "priceCurrency": "PLN", "url": "https://fitpogodzinach.netlify.app/cennik/#kontakt-cennik" },
-      { "@type": "Offer", "name": "Projekt: Nowa Ja", "description": "6-miesięczne wsparcie premium z priorytetowym kontaktem", "price": "1199", "priceCurrency": "PLN", "url": "https://fitpogodzinach.netlify.app/cennik/#kontakt-cennik" }
+    "@graph": [
+      {
+        "@type": "Product",
+        "name": "30 Minut do Formy",
+        "description": "4-tygodniowy plan treningowy online dla zapracowanych kobiet. 2-3 treningi/tydzień, plan mobility, 1 korekta, check-in co 2 tygodnie.",
+        "brand": { "@type": "Brand", "name": "FitPoGodzinach" },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://buy.stripe.com/8wO0Xj6lk5fPa8lgjC00",
+          "priceCurrency": "PLN",
+          "price": "249",
+          "availability": "https://schema.org/InStock",
+          "seller": { "@type": "Organization", "name": "FitPoGodzinach" }
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Metamorfoza Po Pracy",
+        "description": "3-miesięczny plan treningowy online. 3 treningi/tydzień, exercise snacks, 3 korekty planu, raport co 3 tygodnie, konsultacja 30 min, mini jadłospis.",
+        "brand": { "@type": "Brand", "name": "FitPoGodzinach" },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://buy.stripe.com/eVqdR835r5hggYxgwJgjC01",
+          "priceCurrency": "PLN",
+          "price": "649",
+          "availability": "https://schema.org/InStock",
+          "seller": { "@type": "Organization", "name": "FitPoGodzinach" }
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Projekt: Nowa Ja",
+        "description": "6-miesięczny plan premium. 4 treningi/tydzień, priorytetowy kontakt 12h, spotkania wideo co 2 tyg., pełny plan dietetyczny, wsparcie na delegacjach.",
+        "brand": { "@type": "Brand", "name": "FitPoGodzinach" },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://buy.stripe.com/aFa3cu5dzfVU37H0xLgjC02",
+          "priceCurrency": "PLN",
+          "price": "1199",
+          "availability": "https://schema.org/InStock",
+          "seller": { "@type": "Organization", "name": "FitPoGodzinach" }
+        }
+      }
     ]
   }
   </script>
