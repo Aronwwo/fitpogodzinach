@@ -1,0 +1,6 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#FFF5F7"/>
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FF6B81" text-anchor="middle">Exercise Snacks</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="20" fill="#1F2937" text-anchor="middle">Wpływ na poziom glukozy w ciągu dnia</text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">[Diagram placeholder - zamień na rzeczywisty wykres]</text>
+</svg>
